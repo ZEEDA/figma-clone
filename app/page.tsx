@@ -1,10 +1,11 @@
 import { Room } from "./Room";
-import { CollaborativeApp } from "./CollaborativeApp";
 
 export default function Page() {
   return (
     <Room>
-      <CollaborativeApp />
+      <div className="p-10">
+        <h1 className="text-4xl">Hi Zeeda</h1>
+      </div>
     </Room>
   );
 }
